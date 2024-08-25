@@ -27,8 +27,8 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Strange:Strange@cluster0.
 DB_NAME = os.environ.get("DATABASE_NAME", "@Cluster0")
 
 #SHORTLINK
-SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "")
-SHORTLINK_API = os.environ.get('SHORTLINK_API', "")
+SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "omegalinks.in")
+SHORTLINK_API = os.environ.get('SHORTLINK_API', "64d16f995d7205d439d4b30a35c0482691c2be0e")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
